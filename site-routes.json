@@ -1,0 +1,105 @@
+{
+  "home": "/",
+  "routes": [
+    {
+      "page": "clinica",
+      "path": "/clinica",
+      "file": "clinica.html",
+      "title": "Atendimento | Dra. Julia Amaral Brazil",
+      "description": "Conheça a abordagem, a avaliação, o consultório e as informações para agendar uma consulta."
+    },
+    {
+      "page": "sobre",
+      "path": "/sobre",
+      "file": "sobre.html",
+      "title": "Sobre | Dra. Julia Amaral Brazil",
+      "description": "Formação e trajetória da Dra. Julia Amaral Brazil, médica psiquiatra."
+    },
+    {
+      "page": "artigos",
+      "path": "/artigos",
+      "file": "artigos.html",
+      "title": "Leituras | Dra. Julia Amaral Brazil",
+      "description": "Artigos da Dra. Julia sobre escuta, avaliação clínica e saúde mental, junto de relatos da sua trajetória."
+    },
+    {
+      "page": "privacidade",
+      "path": "/privacidade",
+      "file": "privacidade.html",
+      "title": "Política de privacidade e cookies | Dra. Julia Amaral Brazil",
+      "description": "Saiba como o site trata dados pessoais e como alterar suas preferências de cookies."
+    },
+    {
+      "page": "article",
+      "slug": "cada-encontro-acontece-uma-vez-so",
+      "path": "/artigos/cada-encontro-acontece-uma-vez-so",
+      "file": "artigos/cada-encontro-acontece-uma-vez-so.html",
+      "title": "Cada encontro acontece uma vez só | Dra. Julia Amaral Brazil",
+      "description": "Sou psiquiatra e trabalho como médica: prescrevo, peço exame, ajusto dose e olho o corpo inteiro de quem senta na minha frente."
+    },
+    {
+      "page": "article",
+      "slug": "a-complexidade-esta-no-olhar",
+      "path": "/artigos/a-complexidade-esta-no-olhar",
+      "file": "artigos/a-complexidade-esta-no-olhar.html",
+      "title": "A complexidade está no olhar | Dra. Julia Amaral Brazil",
+      "description": "Alta complexidade, no sentido em que uso o termo, é uma forma de olhar para cada pessoa."
+    },
+    {
+      "page": "article",
+      "slug": "a-pausa-e-parte-da-dose",
+      "path": "/artigos/a-pausa-e-parte-da-dose",
+      "file": "artigos/a-pausa-e-parte-da-dose.html",
+      "title": "A pausa é parte da dose | Dra. Julia Amaral Brazil",
+      "description": "Rebeca Andrade voltou a ser campeã mundial no salto depois de um ano sem competir, e resumiu o ano parado dizendo que tirou um tempo para cuidar de si."
+    },
+    {
+      "page": "article",
+      "slug": "o-rastreio-positivo-nao-e-o-diagnostico",
+      "path": "/artigos/o-rastreio-positivo-nao-e-o-diagnostico",
+      "file": "artigos/o-rastreio-positivo-nao-e-o-diagnostico.html",
+      "title": "O rastreio positivo não é o diagnóstico | Dra. Julia Amaral Brazil",
+      "description": "Um adulto chega ao consultório dizendo que tem TDAH."
+    },
+    {
+      "page": "article",
+      "slug": "a-historia-inteira",
+      "path": "/artigos/a-historia-inteira",
+      "file": "artigos/a-historia-inteira.html",
+      "title": "Uma perspectiva para cada pessoa. | Dra. Julia Amaral Brazil",
+      "description": "Como diferentes formações se encontram na prática clínica."
+    },
+    {
+      "page": "article",
+      "slug": "dor-e-saude-mental",
+      "path": "/artigos/dor-e-saude-mental",
+      "file": "artigos/dor-e-saude-mental.html",
+      "title": "A pergunta que me levou a estudar Dor. | Dra. Julia Amaral Brazil",
+      "description": "Um encontro entre as questões da prática e o desejo de aprofundar o olhar."
+    },
+    {
+      "page": "article",
+      "slug": "aprender-com-as-perguntas",
+      "path": "/artigos/aprender-com-as-perguntas",
+      "file": "artigos/aprender-com-as-perguntas.html",
+      "title": "A experiência que amplia a atenção. | Dra. Julia Amaral Brazil",
+      "description": "O que diferentes cenários de cuidado acrescentam à avaliação."
+    },
+    {
+      "page": "article",
+      "slug": "escutar-a-historia-inteira",
+      "path": "/artigos/escutar-a-historia-inteira",
+      "file": "artigos/escutar-a-historia-inteira.html",
+      "title": "O que aparece quando escutamos a história inteira? | Dra. Julia Amaral Brazil",
+      "description": "Antes de escolher um caminho, compreender de onde uma pessoa chega."
+    },
+    {
+      "page": "article",
+      "slug": "a-dor-na-historia",
+      "path": "/artigos/a-dor-na-historia",
+      "file": "artigos/a-dor-na-historia.html",
+      "title": "A dor também faz parte da história. | Dra. Julia Amaral Brazil",
+      "description": "Uma pergunta da prática hospitalar que levou a uma nova formação."
+    }
+  ]
+}

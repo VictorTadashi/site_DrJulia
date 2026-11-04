@@ -1,0 +1,67 @@
+{
+  "source": "Brain_Model.obj",
+  "sha256": "99541f54c1cc2b9f85958eeaec0908a6ad4b7c40e930a44c4aa22836b156e914",
+  "sourceVertices": 192791,
+  "sourceTriangles": 385004,
+  "components": 6,
+  "structures": [
+    {
+      "id": 0,
+      "description": "left hemisphere",
+      "sourceVertices": 19213,
+      "sampledPoints": 37059
+    },
+    {
+      "id": 1,
+      "description": "right hemisphere",
+      "sourceVertices": 19213,
+      "sampledPoints": 36720
+    },
+    {
+      "id": 2,
+      "description": "posterior lower structure",
+      "sourceVertices": 115076,
+      "sampledPoints": 10462
+    },
+    {
+      "id": 3,
+      "description": "central and stem structure",
+      "sourceVertices": 27635,
+      "sampledPoints": 14058
+    },
+    {
+      "id": 4,
+      "description": "inner arch",
+      "sourceVertices": 9769,
+      "sampledPoints": 1297
+    },
+    {
+      "id": 5,
+      "description": "small inner structure",
+      "sourceVertices": 1885,
+      "sampledPoints": 404
+    }
+  ],
+  "points": 100000,
+  "surfaceVertices": 107941,
+  "surfaceTriangles": 218189,
+  "clusterCell": 0.004,
+  "maxClusterDisplacement": 0.00407934265590001,
+  "bounds": [
+    [
+      -0.4985877317141549,
+      -0.525290319345582,
+      -0.62
+    ],
+    [
+      0.4985877317141549,
+      0.5252903193455821,
+      0.62
+    ]
+  ],
+  "bytes": {
+    "indices.bin": 2618268,
+    "points.bin": 1600000,
+    "surface.bin": 1727056
+  }
+}

@@ -1,0 +1,1 @@
+var t=Array.from(document.images).filter(e=>e.loading!=="lazy"&&e.getBoundingClientRect().top<innerHeight);Promise.allSettled(t.map(e=>e.decode())).then(()=>{requestAnimationFrame(()=>{requestAnimationFrame(async()=>{let{start:e}=await import("./pages-client-3KTPZRCA.js");await e()})})});

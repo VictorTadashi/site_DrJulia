@@ -1,0 +1,162 @@
+# Gerado a partir de _redirects e _headers (equivalente para Apache / cPanel / Hostinger).
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Forca HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Aliases de arquivos (nomes antigos -> arquivos com hash)
+RewriteRule ^fonts/cormorant-italic-variable\.ttf$ /fonts/cormorant-italic-variable.woff2 [L]
+RewriteRule ^fonts/cormorant-variable\.ttf$ /fonts/cormorant-variable.woff2 [L]
+RewriteRule ^fonts/inter-400\.ttf$ /fonts/inter-400.woff2 [L]
+RewriteRule ^fonts/inter-500\.ttf$ /fonts/inter-500.woff2 [L]
+RewriteRule ^fonts/inter-700\.ttf$ /fonts/inter-700.woff2 [L]
+RewriteRule ^fonts/nimbus-sans/bold-italic\.otf$ /fonts/nimbus-sans/bold-italic.woff2 [L]
+RewriteRule ^fonts/nimbus-sans/bold\.otf$ /fonts/nimbus-sans/bold.woff2 [L]
+RewriteRule ^fonts/nimbus-sans/italic\.otf$ /fonts/nimbus-sans/italic.woff2 [L]
+RewriteRule ^fonts/nimbus-sans/regular\.otf$ /fonts/nimbus-sans/regular.woff2 [L]
+RewriteRule ^imagens/blog-v53/a-complexidade-esta-no-olhar\.webp$ /imagens/blog-v53/a-complexidade-esta-no-olhar.77ebc2e4e26a.webp [L]
+RewriteRule ^imagens/blog-v53/a-dor-na-historia\.webp$ /imagens/blog-v53/a-dor-na-historia.125b4e35d0c8.webp [L]
+RewriteRule ^imagens/blog-v53/a-historia-inteira\.webp$ /imagens/blog-v53/a-historia-inteira.879d2cf43b23.webp [L]
+RewriteRule ^imagens/blog-v53/a-pausa-e-parte-da-dose\.webp$ /imagens/blog-v53/a-pausa-e-parte-da-dose.d33d0a7da911.webp [L]
+RewriteRule ^imagens/blog-v53/aprender-com-as-perguntas\.webp$ /imagens/blog-v53/aprender-com-as-perguntas.ed491377c3a4.webp [L]
+RewriteRule ^imagens/blog-v53/cada-encontro-acontece-uma-vez-so\.webp$ /imagens/blog-v53/cada-encontro-acontece-uma-vez-so.a369d478b432.webp [L]
+RewriteRule ^imagens/blog-v53/dor-e-saude-mental\.webp$ /imagens/blog-v53/dor-e-saude-mental.c192b595283b.webp [L]
+RewriteRule ^imagens/blog-v53/escutar-a-historia-inteira\.webp$ /imagens/blog-v53/escutar-a-historia-inteira.911ad676063e.webp [L]
+RewriteRule ^imagens/blog-v53/o-rastreio-positivo-nao-e-o-diagnostico\.webp$ /imagens/blog-v53/o-rastreio-positivo-nao-e-o-diagnostico.1880326f8659.webp [L]
+RewriteRule ^imagens/clinical/entenda-2-v51\.webp$ /imagens/clinical/overlapping-symptoms-portrait.ca218755e103.webp [L]
+RewriteRule ^imagens/clinical/entenda-2-wide-v51\.webp$ /imagens/clinical/overlapping-symptoms-wide.9704ed54f952.webp [L]
+RewriteRule ^imagens/clinical/entenda-3-v51\.webp$ /imagens/clinical/chronic-pain-portrait.2eac6130c868.webp [L]
+RewriteRule ^imagens/clinical/entenda-3-wide-v51\.webp$ /imagens/clinical/chronic-pain-wide.9ad592c51261.webp [L]
+RewriteRule ^imagens/clinical/entenda-4-v51\.webp$ /imagens/clinical/entenda-4-v51.0c59be9581b6.webp [L]
+RewriteRule ^imagens/clinical/entenda-4-wide-v51\.webp$ /imagens/clinical/entenda-4-wide-v51.a3ed34eed9ad.webp [L]
+RewriteRule ^imagens/cooking/flower\.webp$ /imagens/cooking/flower.b20adfed14d0.webp [L]
+RewriteRule ^imagens/cooking/olhar\.webp$ /imagens/cooking/olhar.d239b1cf5252.webp [L]
+RewriteRule ^imagens/julia-consultorio\.webp$ /imagens/julia-consultorio.b7d67ef6daf6.webp [L]
+RewriteRule ^imagens/julia-mosaic/playful-bw\.webp$ /imagens/julia-mosaic/playful-bw.25a8e84a5b43.webp [L]
+RewriteRule ^imagens/julia-mosaic/relaxed-bw\.webp$ /imagens/julia-mosaic/relaxed-bw.f7cf76e71fff.webp [L]
+RewriteRule ^imagens/julia-mosaic/smile-color\.webp$ /imagens/julia-mosaic/smile-color.90f765cd9555.webp [L]
+RewriteRule ^imagens/julia-mosaic/white-coat\.webp$ /imagens/julia-mosaic/white-coat.38d9f12477c2.webp [L]
+RewriteRule ^imagens/julia-portrait\.webp$ /imagens/julia-portrait.278c2d9c0c42.webp [L]
+RewriteRule ^imagens/olhares/olhar-1-v49\.webp$ /imagens/olhares/olhar-1-v49.b42eb6420c1d.webp [L]
+RewriteRule ^imagens/olhares/olhar-2-v49\.webp$ /imagens/olhares/olhar-2-v49.0eb29730491b.webp [L]
+RewriteRule ^imagens/olhares/olhar-3-v49\.webp$ /imagens/olhares/olhar-3-v49.81f3ccb7c903.webp [L]
+RewriteRule ^imagens/round-4/city\.webp$ /imagens/round-4/city.041ca260d3bb.webp [L]
+RewriteRule ^imagens/round-4/footer-approved\.webp$ /imagens/round-4/footer-approved.83c72112a7bb.webp [L]
+RewriteRule ^imagens/round-4/julia\.webp$ /imagens/portraits/clinic-intro.72b7bbac4657.webp [L]
+RewriteRule ^imagens/round-4/readings/clinical\.webp$ /imagens/round-4/readings/clinical.2e3bab3af1c1.webp [L]
+RewriteRule ^imagens/round-4/readings/history\.webp$ /imagens/round-4/readings/history.68d2c0a5f742.webp [L]
+RewriteRule ^imagens/round-4/readings/learning\.webp$ /imagens/round-4/readings/learning.9608c6b14a51.webp [L]
+RewriteRule ^imagens/round-4/submerged\.webp$ /imagens/round-4/submerged.eae4cd5b136a.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-01-thumb\.webp$ /imagens/round-5/clinic/photo-01-thumb.50033d16bd4e.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-01\.webp$ /imagens/round-5/clinic/photo-01.b1b7776f3f1c.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-02-thumb\.webp$ /imagens/round-5/clinic/photo-02-thumb.fba2fcf3cf55.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-02\.webp$ /imagens/round-5/clinic/photo-02.46adf0a0a5d3.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-03-thumb\.webp$ /imagens/round-5/clinic/photo-03-thumb.7e8bebd036e4.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-03\.webp$ /imagens/round-5/clinic/photo-03.0523ad2e5840.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-04-thumb\.webp$ /imagens/round-5/clinic/photo-04-thumb.5444bc321ad6.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-04\.webp$ /imagens/round-5/clinic/photo-04.912b3fb0ba1e.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-05-thumb\.webp$ /imagens/round-5/clinic/photo-05-thumb.e1da2267cc6d.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-05\.webp$ /imagens/round-5/clinic/photo-05.ffff74d5ec6b.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-06-thumb\.webp$ /imagens/round-5/clinic/photo-06-thumb.49180417a44d.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-06\.webp$ /imagens/round-5/clinic/photo-06.ca28a0dc0868.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-07-thumb\.webp$ /imagens/round-5/clinic/photo-07-thumb.ed204de59637.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-07\.webp$ /imagens/round-5/clinic/photo-07.98cef87587fc.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-08-thumb\.webp$ /imagens/round-5/clinic/photo-08-thumb.4d158af23445.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-08\.webp$ /imagens/round-5/clinic/photo-08.b329adb9eef0.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-09-thumb\.webp$ /imagens/round-5/clinic/photo-09-thumb.b4ca68f49874.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-09\.webp$ /imagens/round-5/clinic/photo-09.26e59373419d.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-10-thumb\.webp$ /imagens/round-5/clinic/photo-10-thumb.c0cfc59100c6.webp [L]
+RewriteRule ^imagens/round-5/clinic/photo-10\.webp$ /imagens/round-5/clinic/photo-10.8a4647478d9d.webp [L]
+RewriteRule ^imagens/round-5/clinic/video-01\.webp$ /imagens/round-5/clinic/video-01.64f9497b7564.webp [L]
+RewriteRule ^imagens/round-5/clinic/video-02\.webp$ /imagens/round-5/clinic/video-02.fd417a4f90b3.webp [L]
+RewriteRule ^imagens/round-5/clinic/video-03\.webp$ /imagens/round-5/clinic/video-03.95af442cb90b.webp [L]
+RewriteRule ^imagens/v3/agave\.webp$ /imagens/v3/agave.301e44adc31f.webp [L]
+RewriteRule ^imagens/v3/eye\.webp$ /imagens/v3/eye.8a9c64a396df.webp [L]
+RewriteRule ^imagens/v3/fern\.webp$ /imagens/v3/fern.75a62e4671cb.webp [L]
+RewriteRule ^imagens/v3/light\.webp$ /imagens/v3/light.1500508c1ab9.webp [L]
+RewriteRule ^imagens/v3/monstera\.webp$ /imagens/v3/monstera.5a9133bee44e.webp [L]
+RewriteRule ^imagens/v3/room\.webp$ /imagens/v3/room.79db1b2d96d7.webp [L]
+RewriteRule ^imagens/geral/hero-pacientes\.webp$ /imagens/geral/hero-pacientes.8d24d258009f.webp [L]
+RewriteRule ^imagens/geral/julia-portrait\.webp$ /imagens/geral/julia-portrait.278c2d9c0c42.webp [L]
+RewriteRule ^imagens/geral/julia\.webp$ /imagens/portraits/appointment.effbb10f4853.webp [L]
+RewriteRule ^imagens/geral/nav-monstera\.webp$ /imagens/geral/nav-monstera.38f07a1308d5.webp [L]
+RewriteRule ^imagens/geral/nav-room\.webp$ /imagens/geral/nav-room.e3157d7b7821.webp [L]
+RewriteRule ^imagens/geral/nav-sunlight\.webp$ /imagens/geral/nav-sunlight.0835765f946d.webp [L]
+RewriteRule ^imagens/geral/water\.webp$ /imagens/geral/water.28eca5b6dc71.webp [L]
+RewriteRule ^videos/round-5/clinic/video-03\.mp4$ /videos/round-5/clinic/video-03.cc3880dfd71a.mp4 [L]
+RewriteRule ^imagens/clinical/treatment-path-portrait\.webp$ /imagens/clinical/treatment-path-portrait.99d067519581.webp [L]
+RewriteRule ^imagens/clinical/treatment-path-wide\.webp$ /imagens/clinical/treatment-path-wide.6d8bff31722d.webp [L]
+RewriteRule ^imagens/clinical/entenda-2-v51\.28e663bc8f36\.webp$ /imagens/clinical/overlapping-symptoms-portrait.ca218755e103.webp [L]
+RewriteRule ^imagens/clinical/overlapping-symptoms-portrait\.webp$ /imagens/clinical/overlapping-symptoms-portrait.ca218755e103.webp [L]
+RewriteRule ^imagens/clinical/entenda-2-wide-v51\.64290861dd84\.webp$ /imagens/clinical/overlapping-symptoms-wide.9704ed54f952.webp [L]
+RewriteRule ^imagens/clinical/overlapping-symptoms-wide\.webp$ /imagens/clinical/overlapping-symptoms-wide.9704ed54f952.webp [L]
+RewriteRule ^imagens/clinical/entenda-3-v51\.1a3c804a78c7\.webp$ /imagens/clinical/chronic-pain-portrait.2eac6130c868.webp [L]
+RewriteRule ^imagens/clinical/chronic-pain-portrait\.webp$ /imagens/clinical/chronic-pain-portrait.2eac6130c868.webp [L]
+RewriteRule ^imagens/clinical/entenda-3-wide-v51\.0aa51626d91f\.webp$ /imagens/clinical/chronic-pain-wide.9ad592c51261.webp [L]
+RewriteRule ^imagens/clinical/chronic-pain-wide\.webp$ /imagens/clinical/chronic-pain-wide.9ad592c51261.webp [L]
+RewriteRule ^imagens/geral/julia\.7e196b3cbeaa\.webp$ /imagens/portraits/appointment.effbb10f4853.webp [L]
+RewriteRule ^imagens/portraits/appointment\.webp$ /imagens/portraits/appointment.effbb10f4853.webp [L]
+RewriteRule ^imagens/round-4/julia\.86f4036e81f4\.webp$ /imagens/portraits/clinic-intro.72b7bbac4657.webp [L]
+RewriteRule ^imagens/portraits/clinic-intro\.webp$ /imagens/portraits/clinic-intro.72b7bbac4657.webp [L]
+RewriteRule ^imagens/portraits/clinic-approach\.webp$ /imagens/portraits/clinic-approach.0f07ad0d18de.webp [L]
+RewriteRule ^imagens/portraits/clinic-approach-seated\.webp$ /imagens/portraits/clinic-approach-seated.735aa9169ae6.webp [L]
+RewriteRule ^imagens/blog-v53/escutar-a-historia-inteira\.f3ca2fb28b08\.webp$ /imagens/blog-v53/escutar-a-historia-inteira.911ad676063e.webp [L]
+RewriteRule ^clinica$ /clinica.html [L]
+RewriteRule ^sobre$ /sobre.html [L]
+RewriteRule ^artigos$ /artigos.html [L]
+RewriteRule ^privacidade$ /privacidade.html [L]
+RewriteRule ^painel$ - [L,R=404]
+RewriteRule ^responsive\.html$ - [L,R=404]
+RewriteRule ^assets/og\.jpg$ /imagens/og/home.bb5bc564c5b0.jpg [L,R=301]
+RewriteRule ^favicon\.ico$ /imagens/icones/favicon.ico [L]
+RewriteRule ^apple-touch-icon\.png$ /imagens/icones/apple-touch-icon.png [L]
+
+# URLs limpas: /clinica -> clinica.html, /artigos/slug -> artigos/slug.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; font-src 'self' data:; connect-src 'self' blob: https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; worker-src 'self' blob:; media-src 'self' blob:; frame-src 'self'; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+
+<FilesMatch "\.(html|xml|txt|json|webmanifest)$">
+  Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>
+<FilesMatch "\.(webp|png|jpg|jpeg|svg|ico|bin|pack)$">
+  Header set Cache-Control "public, max-age=604800, stale-while-revalidate=86400"
+</FilesMatch>
+<FilesMatch "\.mp4$">
+  Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+<FilesMatch "\.(css|js|woff2)$">
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+AddType application/javascript .js
+AddType text/css .css
+AddType image/webp .webp
+AddType font/woff2 .woff2
+AddType video/mp4 .mp4
+AddType application/manifest+json .webmanifest
+AddType application/octet-stream .bin .pack
+AddCharset utf-8 .html .css .js .json .xml .txt .webmanifest
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/manifest+json text/xml application/xml application/octet-stream
+</IfModule>

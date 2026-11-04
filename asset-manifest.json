@@ -1,0 +1,15 @@
+{
+  "homeStyle": "/assets/css/home-e1f09d0b0e65.css",
+  "pagesStyle": "/assets/css/pages-0a7cac39cbd3.css",
+  "fontsStyle": "/assets/css/fonts-53bc4fc50b55.css",
+  "typographyStyle": "/assets/css/typography-d8b46f3c8281.css",
+  "client": "/assets/js/pages-RV6DJ6PY.js",
+  "homeScripts": {
+    "world.js": "/assets/js/world-6ed7479256a4.js",
+    "smooth-scroll.js": "/assets/js/smooth-scroll-d53a204a5753.js",
+    "journey.js": "/assets/js/journey-a5436d3a21ac.js",
+    "text-motion.js": "/assets/js/text-reveal-a29b92d77d28.js",
+    "clinical-cards.js": "/assets/js/clinical-cards-b945ea72354d.js",
+    "reading-sliders.js": "/assets/js/reading-slider-ab357046f470.js"
+  }
+}
