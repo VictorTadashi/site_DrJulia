@@ -1,0 +1,8 @@
+# Netlify: build e pasta publicada.
+# Os headers e redirects ficam em public/_headers e public/_redirects (copiados para dist/).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
