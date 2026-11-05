@@ -1,5 +1,4 @@
 {
-  "commit": "2ec50cb37f5c5b4ff09b1cbd9b1c8b49f5707ee7",
-  "builtAt": "2026-11-03T20:51:49.000Z",
-  "dateBasis": "source-epoch"
+  "commit": "12063cd1761962052c2fd0a40349a6c5f6b69bfc",
+  "note": "Site estatico final, ajustado manualmente. Sem etapa de build."
 }
